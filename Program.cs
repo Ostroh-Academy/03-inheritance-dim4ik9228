@@ -8,4 +8,7 @@ var humanAge = human.GetHumanAge();
 
 var letterMatchesAmount = student.GetLetterMatchesAmountFromLastName('u');
 
+Console.WriteLine($"Age of person {human.FirstName}: {humanAge}");
+Console.WriteLine($"Amount of matches of letter <u>: {letterMatchesAmount}");
+
 Console.ReadKey();
